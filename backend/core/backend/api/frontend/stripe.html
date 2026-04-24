@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SentinelAI Stripe Dashboard</title>
+  <link rel="stylesheet" href="stripe.css">
+</head>
+
+<body>
+
+  <h1>📊 SentinelAI Billing Dashboard</h1>
+
+  <div class="grid">
+
+    <div class="card">
+      <h2>MRR</h2>
+      <div id="mrr">0</div>
+    </div>
+
+    <div class="card">
+      <h2>ARR</h2>
+      <div id="arr">0</div>
+    </div>
+
+    <div class="card">
+      <h2>Total Revenue</h2>
+      <div id="revenue">0</div>
+    </div>
+
+    <div class="card">
+      <h2>ARPU</h2>
+      <div id="arpu">0</div>
+    </div>
+
+    <div class="card">
+      <h2>Active Users</h2>
+      <div id="users">0</div>
+    </div>
+
+    <div class="card">
+      <h2>Decision Split</h2>
+      <div id="decisions"></div>
+    </div>
+
+  </div>
+
+  <div class="card full">
+    <h2>Live Revenue Stream</h2>
+    <div id="events"></div>
+  </div>
+
+  <script src="stripe.js"></script>
+</body>
+</html>
